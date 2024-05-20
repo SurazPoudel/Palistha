@@ -438,7 +438,7 @@ img{
   position:relative;
   left:0px;
   top:0px;
-  background: #ffffff;
+  background: #8ec5df;
   z-index:999;
   width:100%;
   transition:all 500ms ease;
@@ -448,11 +448,23 @@ img{
   -o-transition:all 500ms ease;
 }
 
+.logo img {
+  width: 180px; /* Adjust the width as needed */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .logo img {
+      width: 100px; /* Adjust for smaller screens */
+  }
+}
+
+
 .sticky-header{
   position:fixed;
   opacity:0;
   visibility:hidden;
-  background: #ffffff;
+  background: #ca3232;
   left:0px;
   top:0px;
   border-bottom: 1px solid #e0e0e0;
@@ -494,7 +506,7 @@ img{
 .main-header .header-top{
   position: relative;
   display: block;
-  background: #253b70;
+  background: #121f3d;
   width: 100%;
   padding: 16px 0px 17px 0px;
 }
@@ -514,12 +526,12 @@ img{
   display: inline-block;
   font-size: 15px;
   line-height: 26px;
-  color: #fff;
+  color: #ddb70b;
 }
 
 .main-header .header-top .social-list li a:hover,
 .main-header .header-top .header-info li a:hover{
-  color: #ff7162;
+  color: #e0dcdb;
 }
 
 .main-header .header-top .header-info li{
